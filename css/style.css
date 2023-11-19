@@ -1,0 +1,644 @@
+/* main font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* footer font  */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container-fluid {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* navigation  */
+.navigation-sec .navigation {
+  background-color: #7e7e7e;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.navbar {
+  width: 92%;
+  margin: 0 auto;
+}
+.logo {
+  width: 5%;
+  height: auto;
+  cursor: pointer;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.nav-ul ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.nav-ul ul li {
+  list-style: none;
+}
+.nav-ul ul li a {
+  color: #111;
+  text-decoration: none;
+  padding: 0 0.5rem;
+}
+.nav-search-cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4%;
+}
+
+.hrt-cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hrt-cart a{
+  color: #212121;
+}
+.heart .fa-regular {
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.bag .fa-solid {
+  padding: 0.5rem;
+  font-size: 1.4rem;
+}
+/* navbar-toggler  */
+.navbar-toggler {
+  display: none;
+}
+
+/* video  */
+.img-sec {
+  height: auto;
+  width: 100%;
+  margin-bottom: 0;
+}
+.img-main {
+  width: 100%;
+  height: auto;
+}
+.img-main img {
+  width: 92%;
+  margin: 0 auto;
+  display: block;
+  height: auto;
+}
+.img-sec a {
+  text-decoration: none;
+  color: black;
+}
+
+/* infinity-rn  */
+.infinity-rn {
+  width: 60%;
+  margin: 0 auto;
+}
+.infinity-rn p {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+.infinity-rn h1 {
+  text-align: center;
+  font-size: 3.8rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  line-height: 3rem;
+  color: #111;
+}
+.infinity-rn .p1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.inf-btn {
+  margin-bottom: 5rem;
+}
+.inf-btn > .btn {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 6px 20px;
+  margin: 0 auto;
+  display: block;
+}
+/* treanding  */
+.treanding {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.heading {
+  width: 92%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.treand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+.trend-l {
+  width: 50%;
+  height: auto;
+}
+.trend-l a {
+  text-decoration: none;
+}
+.trend-img {
+  width: 95%;
+  height: auto;
+}
+.trend-img img {
+  width: 100%;
+  height: auto;
+}
+.trend-r {
+  width: 50%;
+}
+.trend-r a {
+  text-decoration: none;
+}
+.trent-text {
+  margin-top: 2rem;
+}
+.trent-text h3 {
+  color: #111;
+}
+.trent-text p {
+  color: #111;
+}
+
+.trend-btn > .btn {
+  background-color: #111;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 20px;
+}
+.feature {
+  margin-top: 5rem;
+}
+
+/* .Essentials  */
+
+.img-sec-feature {
+  margin-bottom: 2rem;
+}
+.Essentials {
+  width: 92%;
+  margin: 0 auto;
+  display: block;
+  height: auto;
+  position: relative;
+}
+.Essentials-box {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* men  */
+.men {
+  width: 32.5%;
+  height: 33.75rem;
+  position: relative;
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+}
+
+.men::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_540,c_limit/d94bfa7e-9357-406a-a124-1940712dfa0b/nike-just-do-it.png");
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+.men img {
+  width: 100%;
+  height: 100%;
+}
+
+/* women  */
+.women {
+  width: 32.5%;
+  height: 33.75rem;
+  position: relative;
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+}
+.women::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_540,c_limit/dc62b322-5c3f-4508-b21c-950683ed460f/nike-just-do-it.png");
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.women img {
+  width: 100%;
+  height: 100%;
+}
+
+/* kids  */
+.kids {
+  width: 32.5%;
+  height: 33.75rem;
+  position: relative;
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+}
+.kids::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_540,c_limit/58359474-a0de-4329-959c-55d1652d0912/nike-just-do-it.png");
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+.kids img {
+  width: 100%;
+  height: 100%;
+}
+
+/* buttons  */
+.essntial-btn {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 20px;
+  text-align: center;
+  padding: 9px 20px;
+}
+.essntial-btns {
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+}
+
+/* .footer  */
+.footer {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  background-color: #111;
+  padding-bottom: 1rem;
+}
+.footer .footer-cnt {
+  padding-top: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
+  height: auto;
+  margin: 0 auto;
+}
+.footer-cnt .conts {
+  display: flex;
+  justify-content: space-between;
+}
+.conts {
+  width: 65%;
+  height: auto;
+}
+.conts .cnt1 ul {
+  padding-left: 0;
+}
+.conts .cnt1 {
+  padding-right: 0rem;
+}
+.conts .cnt1 p {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 0.8rem;
+}
+.cnt1 .uls {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 0.8rem;
+}
+.conts .cnt1 ul li {
+  list-style: none;
+  padding-bottom: 0.5rem;
+}
+.conts .cnt1 ul li a {
+  text-decoration: none;
+  color: #7e7e7e;
+  font-size: 0.8rem;
+}
+/* info-icons   */
+.info-icons {
+  width: 21%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+}
+.icons-sec {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.icons-sec .icn {
+  background-color: #6d6d6d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 110px;
+}
+.essntial-btn:hover {
+  background-color: #111;
+  color: #f5f5f5;
+}
+.icn .fa-brands {
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #111;
+}
+
+.footer-cnt .rights {
+  justify-content: flex-start;
+}
+
+.india a {
+  color: #f5f5f5;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+.india a .fa-solid {
+  padding-right: 0.5rem;
+}
+.right span {
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  color: #7e7e7e;
+  /* color: yellowgreen; */
+}
+
+.lefts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lefts .term {
+  padding-right: 0.7rem;
+  padding-left: 0.7rem;
+}
+.term a {
+  text-decoration: none;
+  color: #7e7e7e;
+  font-size: 0.8rem;
+}
+
+.footer-l {
+  width: 50%;
+}
+/* utility class  */
+.head-1 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1128px) {
+  .infinity-rn {
+    width: 70%;
+  }
+  .infinity-rn h1 {
+    font-size: 3.4rem;
+  }
+}
+
+@media (max-width: 933px) {
+  .infinity-rn {
+    width: 70%;
+  }
+  .trent-text p {
+    color: #111;
+    font-size: 0.9rem;
+  }
+  .lefts .term {
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+  }
+  .term a {
+    font-size: 0.7rem;
+  }
+  .right span {
+    padding-left: 0.8rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 893px) {
+  .logo {
+    width: 4%;
+  }
+  .nav-ul ul li a {
+    font-size: 0.9rem;
+  }
+  .nav-search-cart {
+    gap: 0%;
+  }
+  .bag .fa-solid {
+    padding: 0.4rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 870px) {
+  .infinity-rn {
+    width: 80%;
+  }
+  .infinity-rn h1 {
+    font-size: 3.2rem;
+  }
+  .infinity-rn .p1 {
+    font-size: 0.8rem;
+  }
+  .trent-text p {
+    color: #111;
+    font-size: 0.8rem;
+  }
+  .men {
+    width: 30.5%;
+  }
+  .women {
+    width: 30.5%;
+  }
+  .kids {
+    width: 30.5%;
+  }
+  .info-icons {
+    width: 24%;
+  }
+  .footer-l {
+    width: 40%;
+  }
+  .conts .cnt1 p {
+    letter-spacing: 0.4px;
+    font-size: 0.7rem;
+  }
+  .conts .cnt1 ul li a {
+    font-size: 0.7rem;
+  }
+  .india a {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 715px) {
+  .nav-ul ul li a {
+    font-size: 0.8rem;
+  }
+  .heart .fa-regular {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+  }
+  .bag .fa-solid {
+    padding: 0.4rem;
+    font-size: 1.1rem;
+  }
+  .input-group {
+    width: 75%;
+  }
+}
+
+@media (max-width: 710px) {
+  .infinity-rn h1 {
+    font-size: 2.5rem;
+  }
+  .Essentials-box {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .men {
+    width: 94.5%;
+    height: 47.75rem;
+  }
+  .women {
+    width: 94.5%;
+    height: 47.75rem;
+  }
+  .kids {
+    width: 94.5%;
+    height: 47.75rem;
+  }
+  .treand {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .trend-img {
+    width: 100%;
+  }
+  .trend-l {
+    width: 97%;
+  }
+  .trend-r {
+    width: 97%;
+  }
+  .info-icons {
+    width: 30%;
+  }
+  .icn .fa-brands {
+    padding: 0.4rem;
+    font-size: 0.8rem;
+  }
+  .form-control {
+    width: 1rem;
+  }
+  .input-group {
+    width: 5rem;
+  }
+}
+
+@media (max-width: 661px) {
+  .footer .footer-cnt {
+    flex-direction: column;
+  }
+  .footer-cnt .conts {
+    flex-direction: column;
+  }
+  .lefts {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.3rem 0.75rem;
+    font-size: .1rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 555px) {
+  .infinity-rn h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .infinity-rn p {
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+  }
+  .infinity-rn .p1 {
+    font-size: 0.7rem;
+    margin-bottom: 0.6rem;
+  }
+}
+
+@media (max-width: 445px) {
+  .infinity-rn h1 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}

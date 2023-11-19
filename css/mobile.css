@@ -1,0 +1,266 @@
+.navbar-toggler{
+  display: flex;
+  font-size: 1rem;
+}
+.navbar-toggler .navbar-toggler-icon {
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+}
+.nav-ul ul{
+  padding-left: 0px;
+}
+.nav-ul ul li a{
+  font-size: .5rem;
+  padding: 0 0.3rem;
+}
+.nav-search-cart{
+  display: none;
+}
+/* offcanvas 
+ */
+.navbar .offcanvas{
+  width: 80%;
+}
+.nav-btnss{
+width: 50%;
+margin: 0 auto;
+}
+.offcanvas-body > p{
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+/* heading mains  */
+.heading {
+  width: 92%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 0.4rem;
+}
+.head-1 {
+  font-size: 1rem;
+}
+.infinity-rn {
+  width: 80%;
+  margin: 0 auto;
+}
+.infinity-rn h1 {
+  font-size: 1.7rem;
+  width: 100%;
+}
+.infinity-rn .p1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+.treand {
+  flex-direction: column;
+}
+.trend-l {
+  width: 92%;
+  margin-bottom: 2rem;
+}
+.trent-text {
+  margin-top: 1rem;
+}
+
+.trent-text h3 {
+  font-size: 1.3rem;
+}
+.trent-text p {
+  font-size: .8rem;
+  margin-bottom: 0.6rem;
+}
+.trend-btn > .btn {
+  padding: 4px 16px;
+  font-size: .7rem;
+}
+.trend-r {
+  width: 92%;
+}
+.trend-img {
+  width: 100%;
+  height: auto;
+}
+.treand {
+  width: 95%;
+}
+.feature {
+  margin-top: 2.5rem;
+}
+.Essentials-box {
+  flex-direction: column;
+}
+.essntial-btns {
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+.men {
+  width: 95%;
+  margin-bottom: 2rem;
+  height: 36.75rem;
+}
+.women {
+  width: 95%;
+  margin-bottom: 2rem;
+  height: 36.75rem;
+}
+.kids {
+  width: 95%;
+  height: 36.75rem;
+}
+
+.footer .footer-cnt {
+  flex-direction: column;
+}
+.footer-cnt .conts {
+  flex-direction: column;
+}
+.info-icons {
+  width: 100%;
+}
+.icons-sec {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-botm{
+  flex-direction: column;
+}
+.conts {
+  width: 64%;
+}
+.right span {
+  padding-left: 0rem;
+}
+.india{
+  margin-bottom: 1rem;
+}
+.left{
+  padding-bottom: 2rem;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.footer .footer-cnt {
+  width: 85%;
+}
+.lefts {
+  align-items: flex-start;
+  flex-direction: column;
+}
+.lefts .term {
+  padding-left: 0rem;
+  margin-bottom: 0.5rem;
+}
+.bottom{
+  margin-bottom: 1rem;
+}
+.bottom2{
+  margin-bottom: 2rem;
+}
+.navbar>.container-fluid {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: end;
+}
+
+
+
+/* .infinity shoes css  */
+
+.Breadcrumb li a {
+  font-size: .7rem;
+}
+.infinity h3 {
+  font-size: 1rem;
+}
+.filters-part {
+  align-items: flex-start;
+  flex-direction: column;
+}
+/* sort  */
+.sort {
+  display: none;
+}
+.show-row {
+  flex-direction: column;
+}
+/* shoe  */
+.items {
+  width: 60%;
+}
+.sorts {
+  width: 40%;
+}
+.gender .gender-h1 {
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+.gender .form-check {
+  margin-bottom: 0.3rem;
+  font-size: .8rem;
+}
+/* buttons clr  */
+.clr {
+  margin: 0.8rem;
+}
+.clr .btn {
+  padding: 0.8rem;
+}
+
+.card{
+  width: 96%;
+}
+.card .card-body {
+  padding: 0.7rem;
+}
+.just-in {
+  color: red;
+  font-size: .7rem;
+}
+.card-title {
+  font-size: 1rem;
+}
+.card-body p {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+}
+.price {
+  text-decoration: none;
+  color: #111;
+  font-size: .7rem;
+}
+
+
+
+@media (max-width: 343px) {
+  .trent-text h3 {
+    font-size: 1rem;
+}
+.trent-text p {
+  font-size: .7rem;
+  margin-bottom: 0.5rem;
+}
+}
+@media (max-width: 265px){
+  .infinity-rn h1 {
+    font-size: 1.5rem;
+  }
+  .infinity-rn .p1 {
+    font-size: 0.6rem;
+    padding-top: 0rem;
+  }
+  
+}
+@media (max-width: 235px ){
+  .infinity-rn h1 {
+    font-size: 1.3rem;
+}
+}
